@@ -29,7 +29,9 @@ header {
 
 /*Header image */
 .image {
-    width: 1915px;
+    display: flex;
+    object-fit: cover;
+    width: 1875px;
     height: 200px;
 }
 
@@ -42,25 +44,43 @@ header {
     font-weight: bold;
 }
 
+/*about me header */
 #aboutme {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
+/*about me paragraph */
 #aboutmep {
     display: flex;
     justify-content: flex-end;
 }
 
+/*the first backround picture */
 #backround1 {
     display: flex;
+    justify-content: space-between;
     width: 500px;
     height: 500px;
 }
 
+/*the last 4 backround pictures */
 .backround2 {
     display: flex;
+    justify-content: space-between;
     width: 250px;
     height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
 }
