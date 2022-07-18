@@ -1,0 +1,29 @@
+/*Changes header backround color and adjusts nav bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+/*Postioning of top links and removes dots of links */
+#bar {
+    display: flex;
+    justify-content: space-between;
+    min-width: 375px;
+    list-style-type: none;
+}
+
+/*Changes links */
+.links {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*removes underline in links */
+#bar a{
+    text-decoration: none;
+}
+
