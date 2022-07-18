@@ -27,3 +27,18 @@ header {
     text-decoration: none;
 }
 
+/*Header image */
+.image {
+    width: 1915px;
+    height: 200px;
+}
+
+/*Adjusts subtitle postion and font */
+#subtitle {
+    position: absolute;
+    top: 195px;
+    right: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
