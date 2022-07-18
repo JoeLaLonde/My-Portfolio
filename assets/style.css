@@ -42,3 +42,25 @@ header {
     font-weight: bold;
 }
 
+#aboutme {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#aboutmep {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#backround1 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.backround2 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
